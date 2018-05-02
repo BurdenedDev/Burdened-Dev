@@ -1,0 +1,25 @@
+{
+  "name": "burdened-dev",
+  "version": "1.0.2",
+  "description": "Burdened's Official Discord Bot!",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "discord.js": "^11.3.2",
+    "snekfetch": "^4.0.0"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/burdened-dev"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
