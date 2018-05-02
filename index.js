@@ -7,10 +7,10 @@ console.log(`[READY]`, `I Have Logged Into Bot ${client.user.tag}!`)
 client.user.setStatus('dnd');
 });
 
-var prefix = ['+'];
+var prefix = ['?'];
 
 client.on('message', async message => {
-  if(message.author !== client.user) return;
+  if(message.author.bot) return;
   if(message.content.indexOf(prefix) !== 0) return;
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
